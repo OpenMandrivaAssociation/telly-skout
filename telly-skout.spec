@@ -4,8 +4,8 @@
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 Name:		telly-skout
-Version:	26.08.1
-Release:	%{?git:0.%{git}.}2
+Version:	26.08.2
+Release:	%{?git:0.%{git}.}1
 Summary:	TV Guide for Plasma Mobile
 %if 0%{?git}
 Source0:	https://invent.kde.org/plasma-mobile/telly-skout/-/archive/%{gitbranch}/telly-skout-%{gitbranchd}.tar.bz2
